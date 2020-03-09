@@ -1,0 +1,148 @@
+{
+  "entities": {
+    "localidad": {
+      "automatically_extensible": false,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "Burgos"
+        },
+        {
+          "synonyms": [],
+          "value": "Valladolid"
+        },
+        {
+          "synonyms": [],
+          "value": "Pe\u00f1aranda de Bracamonte"
+        },
+        {
+          "synonyms": [],
+          "value": "Soria"
+        },
+        {
+          "synonyms": [],
+          "value": "Almaz\u00e1n"
+        },
+        {
+          "synonyms": [],
+          "value": "\u00cdscar"
+        },
+        {
+          "synonyms": [],
+          "value": "Portillo"
+        },
+        {
+          "synonyms": [],
+          "value": "Toro"
+        },
+        {
+          "synonyms": [],
+          "value": "Fermoselle"
+        },
+        {
+          "synonyms": [],
+          "value": "Sahag\u00fan"
+        },
+        {
+          "synonyms": [],
+          "value": "Herv\u00e1s"
+        },
+        {
+          "synonyms": [],
+          "value": "O\u00f1a"
+        },
+        {
+          "synonyms": [],
+          "value": "Salda\u00f1a"
+        },
+        {
+          "synonyms": [],
+          "value": "Sabi\u00f1\u00e1nigo"
+        },
+        {
+          "synonyms": [],
+          "value": "Jaca"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "snips/time": {}
+  },
+  "intents": {
+    "temperatura": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "\u00bfQu\u00e9 tiempo har\u00e1 "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "fecha",
+              "text": "ma\u00f1ana"
+            },
+            {
+              "text": " en "
+            },
+            {
+              "entity": "localidad",
+              "slot_name": "localidad",
+              "text": "Molina de Arag\u00f3n"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfQu\u00e9 tal har\u00e1 "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "fecha",
+              "text": "pasado ma\u00f1ana"
+            },
+            {
+              "text": " en "
+            },
+            {
+              "entity": "localidad",
+              "slot_name": "localidad",
+              "text": "Ponferrada"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "\u00bfQu\u00e9 temperatura habr\u00e1 "
+            },
+            {
+              "entity": "snips/time",
+              "slot_name": "fecha",
+              "text": "ma\u00f1ana"
+            },
+            {
+              "text": " en "
+            },
+            {
+              "entity": "localidad",
+              "slot_name": "localidad",
+              "text": "Fr\u00edas"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

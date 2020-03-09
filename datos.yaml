@@ -1,0 +1,33 @@
+#Archivo para agregar los datos de entrenamiento como son instenciones y entidades
+---
+type: intent
+name: temperatura
+slots:
+  - name: fecha
+    entity: snips/time
+  - name: localidad
+    entity: localidad
+utterances:
+  - ¿Qué tiempo hará [fecha](mañana) en [localidad](Molina de Aragón)?
+  - ¿Qué tal hará [fecha](pasado mañana) en [localidad](Ponferrada)?
+  - ¿Qué temperatura habrá [fecha](mañana) en [localidad](Frías)?
+---
+type : entity
+name : localidad
+automatically_extensible : no
+values :
+- Burgos
+- Valladolid
+- Peñaranda de Bracamonte
+- Soria
+- Almazán
+- Íscar
+- Portillo
+- Toro
+- Fermoselle
+- Sahagún
+- Hervás
+- Oña
+- Saldaña
+- Sabiñánigo
+- Jaca
